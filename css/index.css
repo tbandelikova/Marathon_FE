@@ -1,0 +1,26 @@
+@import url(./imports.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./about.css);
+@import url(./crew.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: rgb(66, 64, 64);
+}
