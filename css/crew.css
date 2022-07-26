@@ -25,6 +25,7 @@
     justify-content: center;
     align-items: center;
     overflow: auto;
+    border-radius: 10px;
 }
 .card_title {
     margin-bottom: 2rem;
