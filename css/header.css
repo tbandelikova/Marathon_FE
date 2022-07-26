@@ -29,3 +29,6 @@
     font-size: 1.5rem;
     color: coral;
 }
+.nav_menu-item:hover {
+transform: scale(1.1);
+}

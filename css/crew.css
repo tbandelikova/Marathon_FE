@@ -26,6 +26,12 @@
     align-items: center;
     overflow: auto;
     border-radius: 10px;
+    transition: 0.5s;
+}
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
 }
 .card_title {
     margin-bottom: 2rem;
