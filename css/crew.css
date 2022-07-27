@@ -2,16 +2,16 @@
     background-color: rgb(230, 230, 230);
     padding: 4rem 0;
 }
-.crew_card_wrap {
+.card_wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
     padding: 2rem 0;
-    height: 35rem;
+    height: 36rem;
     overflow: hidden;
 }
-#crew_title {
+#title {
     text-align: center
 }
 .card {

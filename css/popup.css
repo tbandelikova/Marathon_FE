@@ -1,0 +1,49 @@
+.popup_wrap {
+    background-color: white;
+    border: 1px solid coral;
+    border-radius: 1rem;
+    width: 40%;
+    margin: auto;
+    z-index: 9000;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    display: none;
+}
+.popup {
+    padding: 0.5rem 1rem 1rem;
+}
+.popup_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup_close {
+    padding: 10px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: end;
+    display: block;
+    margin-left: auto;
+}
+.popup_close:hover {
+    cursor: pointer;
+}
+.popup_title {
+    margin-bottom: 1rem;
+}
+.popup_text {
+    padding: 0 1rem;
+}
+.popup_text *{
+    margin-bottom: 0.5rem;
+}
+.popup_text *:last-child{
+    margin-bottom: 0;
+}
+.no-scroll {
+    overflow: hidden;
+}

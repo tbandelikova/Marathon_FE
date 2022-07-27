@@ -1,6 +1,6 @@
 .main {
     background-image: url(../img/image-from-rawpixel-id-3282405-jpeg.jpg);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
